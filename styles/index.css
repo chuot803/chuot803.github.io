@@ -1,8 +1,8 @@
 .about-me-section {
     width: 80%;
-    height: 500px;
+    height: 600px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -17,6 +17,11 @@
 .info-stats-container {
     display: flex;
     flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
 }
 
 #info {
@@ -39,7 +44,7 @@
 .icons {
     position: absolute;
     top: 80%;
-    left: 10.5%;
+    right: 10.5%;
 }
 
 @media only screen and (max-width: 1200px) {
