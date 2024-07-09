@@ -54,12 +54,12 @@
               in order to speed up the computation time. This will make for an interesting comparison against VAMP, which parallelizes using a more fine grained approach
               compared to Blind RRT. 
             </p></div>
+            <div class="carousel-item"><p>I'm now working on setting up the message passing interface (MPI) on my computer and starting some example progrms to learn how it works.
+              This interface provides a way for parallel processes running on different CPUs to communicate with each other. I plan to use this in order to parallelize VAMP by having
+              the solver be run by multiple processes. This method is a naive way to test if the parallelization works, and I will benchmark it to see if there's any apparent 
+              speedups. I think the overhead of spawning the processes might reduce the gains in efficiency, but it will be a good introduction to using MPI with VAMP.  
+            </p></div>
           </div>
-          <div class="carousel-item"><p>I'm now working on setting up the message passing interface (MPI) on my computer and starting some example progrms to learn how it works.
-            This interface provides a way for parallel processes running on different CPUs to communicate with each other. I plan to use this in order to parallelize VAMP by having
-            the solver be run by multiple processes. This method is a naive way to test if the parallelization works, and I will benchmark it to see if there's any apparent 
-            speedups. I think the overhead of spawning the processes might reduce the gains in efficiency, but it will be a good introduction to using MPI with VAMP.  
-          </p></div>
           </div>
   </background-component>
 </body>
